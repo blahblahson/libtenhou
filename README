@@ -1,0 +1,24 @@
+libtenhou 1.0
+2014-04-19  bps (bps@arcturus.su)
+
+libtenhou is a perl library for interface with the popular online Japanese
+mahjong service Tenhou (see: tenhou.net). Most of the documentation is found in
+each file itself, since they have been organised into discrete categories.
+
+This is just a collation of many generic subroutines that have been written
+over the years for various pieces of Tenhou-related software of mine. The vast
+majority of code dates back to early 2009, with the exception of auth.pl and
+the gtype files.
+
+The gtype part of the library was written originally for the backend of
+ranking.pl, so there is thorough documentation here. Up to its marked "last
+reviewed" date (see the bottom of gtype.pl), this file should be considered
+100% stable for parsing of gtype strings.
+
+This is a long time coming. Most code I've written is not closed-source out of
+choice so much as lack of effort. This is the first step in publishing large
+amounts of Tenhou related code. I hope also to provide thorough documentation
+in future, as well as update tenhoudoc.txt.
+
+If you have any questions, feel free to contact me on bps@arcturus.su, or find
+me on the usual IRC channels as "alvin".
